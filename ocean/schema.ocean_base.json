@@ -1,0 +1,250 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Ocean Base": {
+      "type": "object",
+      "properties": {
+        "associatedAssetSize": {
+          "type": "string"
+        },
+        "associatedUnitId": {
+          "type": "string"
+        },
+        "billOfLadingNumber": {
+          "type": "string"
+        },
+        "bookingNumber": {
+          "type": "string"
+        },
+        "bookingOffice": {
+          "type": "string"
+        },
+        "carrierCode": {
+          "type": "string"
+        },
+        "carrierName": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "codeType": {
+          "type": "string"
+        },
+        "consigneeName": {
+          "type": "string"
+        },
+        "containerBookingNumber": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "createdBy": {
+          "type": "string"
+        },
+        "customerOrderReferenceNumber": {
+          "type": "string"
+        },
+        "destinationCity": {
+          "type": "string"
+        },
+        "destinationSPLC": {
+          "type": "string"
+        },
+        "destinationState": {
+          "type": "string"
+        },
+        "eventCode": {
+          "type": "string"
+        },
+        "eventName": {
+          "type": "string"
+        },
+        "eventTime": {
+          "type": "string"
+        },
+        "houseBill": {
+          "type": "string"
+        },
+        "importReferenceNumber": {
+          "type": "string"
+        },
+        "latitude": {
+          "type": "integer"
+        },
+        "location": {
+          "type": "string"
+        },
+        "longitude": {
+          "type": "integer"
+        },
+        "masterBill": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "onHandNumber": {
+          "type": "string"
+        },
+        "originSPLC": {
+          "type": "string"
+        },
+        "originatorCode": {
+          "type": "string"
+        },
+        "originatorId": {
+          "type": "integer"
+        },
+        "originatorName": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "purchaseOrderReferenceNumber": {
+          "type": "string"
+        },
+        "railBillingNumber": {
+          "type": "string"
+        },
+        "reasonCode": {
+          "type": "string"
+        },
+        "reasonName": {
+          "type": "string"
+        },
+        "receiverCode": {
+          "type": "string"
+        },
+        "receiverName": {
+          "type": "string"
+        },
+        "reportSource": {
+          "type": "string"
+        },
+        "reportedBy": {
+          "type": "string"
+        },
+        "resolvedEventId": {
+          "type": "integer"
+        },
+        "resolvedEventOriginalId": {
+          "type": "integer"
+        },
+        "resolvedEventSource": {
+          "type": "string"
+        },
+        "resolvedEventStatus": {
+          "type": "string"
+        },
+        "sealNumber": {
+          "type": "string"
+        },
+        "shipmentReferenceNumber": {
+          "type": "string"
+        },
+        "signedBy": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "stopType": {
+          "type": "string"
+        },
+        "terminalCode": {
+          "type": "string"
+        },
+        "terminalFunction": {
+          "type": "string"
+        },
+        "unitId": {
+          "type": "string"
+        },
+        "unitSize": {
+          "type": "integer"
+        },
+        "unitState": {
+          "type": "string"
+        },
+        "unitTypeCode": {
+          "type": "string"
+        },
+        "vessel": {
+          "type": "string"
+        },
+        "voyageNumber": {
+          "type": "string"
+        },
+        "workOrderNumber": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "associatedAssetSize",
+        "associatedUnitId",
+        "billOfLadingNumber",
+        "bookingNumber",
+        "bookingOffice",
+        "carrierCode",
+        "carrierName",
+        "city",
+        "codeType",
+        "consigneeName",
+        "containerBookingNumber",
+        "country",
+        "createdBy",
+        "customerOrderReferenceNumber",
+        "destinationCity",
+        "destinationSPLC",
+        "destinationState",
+        "eventCode",
+        "eventName",
+        "eventTime",
+        "houseBill",
+        "importReferenceNumber",
+        "latitude",
+        "location",
+        "longitude",
+        "masterBill",
+        "notes",
+        "onHandNumber",
+        "originSPLC",
+        "originatorCode",
+        "originatorId",
+        "originatorName",
+        "postalCode",
+        "purchaseOrderReferenceNumber",
+        "railBillingNumber",
+        "reasonCode",
+        "reasonName",
+        "receiverCode",
+        "receiverName",
+        "reportSource",
+        "reportedBy",
+        "resolvedEventId",
+        "resolvedEventOriginalId",
+        "resolvedEventSource",
+        "resolvedEventStatus",
+        "sealNumber",
+        "shipmentReferenceNumber",
+        "signedBy",
+        "state",
+        "stopType",
+        "terminalCode",
+        "terminalFunction",
+        "unitId",
+        "unitSize",
+        "unitState",
+        "unitTypeCode",
+        "vessel",
+        "voyageNumber",
+        "workOrderNumber"
+      ]
+    }
+  },
+  "required": ["Ocean Base"]
+}

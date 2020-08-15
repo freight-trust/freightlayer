@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "vesselInfo": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "SCAC": {
+          "type": "string"
+        },
+        "vesselCode": {
+          "type": "string"
+        },
+        "vesselName": {
+          "type": "string"
+        },
+        "voyageNumber": {
+          "type": "string"
+        }
+      },
+      "required": ["source", "SCAC", "vesselCode", "vesselName", "voyageNumber"]
+    },
+    "vesselStops": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "portName": {
+              "type": "string"
+            },
+            "unlocCode": {
+              "type": "string"
+            },
+            "estimatedArrival": {
+              "type": "string"
+            },
+            "estimatedDeparture": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "portName",
+            "unlocCode",
+            "estimatedArrival",
+            "estimatedDeparture",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "portName": {
+              "type": "string"
+            },
+            "unlocCode": {
+              "type": "string"
+            },
+            "estimatedArrival": {
+              "type": "string"
+            },
+            "estimatedDeparture": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "portName",
+            "unlocCode",
+            "estimatedArrival",
+            "estimatedDeparture",
+            "sequenceNumber"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "portName": {
+              "type": "string"
+            },
+            "unlocCode": {
+              "type": "string"
+            },
+            "estimatedArrival": {
+              "type": "string"
+            },
+            "estimatedDeparture": {
+              "type": "string"
+            },
+            "sequenceNumber": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "portName",
+            "unlocCode",
+            "estimatedArrival",
+            "estimatedDeparture",
+            "sequenceNumber"
+          ]
+        }
+      ]
+    }
+  },
+  "required": ["vesselInfo", "vesselStops"]
+}
