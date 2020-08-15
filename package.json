@@ -1,0 +1,53 @@
+{
+  "name": "@freight-trust/layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test-pass": "mocha spec/*.pass.js -R spec",
+    "test-fail": "mocha spec/*.fail.js -R spec | grep ' 0 passing' | grep -q '0'",
+    "test-spec": "npm run test-pass && npm run test-fail",
+    "test": "nyc npm run test-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freight-trust/freightlayer.git"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "test",
+    "logistics",
+    "supply-chain",
+    "edi"
+  ],
+  "author": "see license",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/freight-trust/freightlayer/issues"
+  },
+  "homepage": "https://github.com/freight-trust/freightlayer#readme",
+  "dependencies": {
+    "glob": "^7.1.6"
+  },
+  "devDependencies": {
+    "ajv": "^6.12.4",
+    "coveralls": "^3.1.0",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0",
+    "pre-commit": "^1.2.2"
+  },
+  "nyc": {
+    "exclude": [
+      "**/spec/**",
+      "node_modules"
+    ],
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
+  }
+}
